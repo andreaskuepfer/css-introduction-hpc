@@ -35,9 +35,9 @@ The workshop covers everything from motivation to practice: why desktop computin
 |------|-------------|
 | [`COMPTEXT26_WORKSHOP_KUEPFER_HPC.pdf`](COMPTEXT26_WORKSHOP_KUEPFER_HPC.pdf) | Slide deck (PDF) |
 
-### [`transcription/`](transcription/)
+### [`scripts/`](scripts/)
 
-Example scripts for audio transcription with speaker diarization using [WhisperX](https://github.com/m-bain/whisperX), ready for SLURM job submission.
+Example scripts for audio transcription with speaker diarization using [WhisperX](https://github.com/m-bain/whisperX), ready for SLURM job submission on [https://www.hrz.tu-darmstadt.de/hlr/hochleistungsrechnen/index.en.jsp](Lichtenberg HPC in Darmstadt, Germany).
 
 | File | Description |
 |------|-------------|
