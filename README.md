@@ -35,6 +35,18 @@ The workshop covers everything from motivation to practice: why desktop computin
 |------|-------------|
 | [`COMPTEXT26_WORKSHOP_KUEPFER_HPC.pdf`](COMPTEXT26_WORKSHOP_KUEPFER_HPC.pdf) | Slide deck (PDF) |
 
+### [`transcription/`](transcription/)
+
+Example scripts for audio transcription with speaker diarization using [WhisperX](https://github.com/m-bain/whisperX), ready for SLURM job submission.
+
+| File | Description |
+|------|-------------|
+| [`transcription.py`](transcription/transcription.py) | Transcribe a single hardcoded video file (transcription + alignment + diarization) |
+| [`transcription_array.py`](transcription/transcription_array.py) | Same pipeline, but accepts the video path as a command-line argument (for array jobs) |
+| [`run_transcription.sh`](transcription/run_transcription.sh) | SLURM job script to run `transcription.py` on a GPU node |
+| [`run_transcription_array.sh`](transcription/run_transcription_array.sh) | SLURM array job script to process multiple videos in parallel |
+| [`transcription.sh`](transcription/transcription.sh) | Minimal local wrapper to run `transcription.py` without SLURM |
+
 ---
 
 ## Contact
