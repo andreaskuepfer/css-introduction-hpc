@@ -41,11 +41,11 @@ Example scripts for audio transcription with speaker diarization using [WhisperX
 
 | File | Description |
 |------|-------------|
-| [`transcription.py`](transcription/transcription.py) | Transcribe a single hardcoded video file (transcription + alignment + diarization) |
-| [`transcription_array.py`](transcription/transcription_array.py) | Same pipeline, but accepts the video path as a command-line argument (for array jobs) |
-| [`run_transcription.sh`](transcription/run_transcription.sh) | SLURM job script to run `transcription.py` on a GPU node |
-| [`run_transcription_array.sh`](transcription/run_transcription_array.sh) | SLURM array job script to process multiple videos in parallel |
-| [`transcription.sh`](transcription/transcription.sh) | Minimal local wrapper to run `transcription.py` without SLURM |
+| [`transcription.py`](scripts/transcription.py) | Transcribe a single hardcoded video file (transcription + alignment + diarization) |
+| [`transcription_array.py`](scripts/transcription_array.py) | Same pipeline, but accepts the video path as a command-line argument (for array jobs) |
+| [`run_transcription.sh`](scripts/run_transcription.sh) | SLURM job script to run `transcription.py` on a GPU node |
+| [`run_transcription_array.sh`](scripts/run_transcription_array.sh) | SLURM array job script to process multiple videos in parallel |
+| [`transcription.sh`](scripts/transcription.sh) | Minimal local wrapper to run `transcription.py` without SLURM |
 
 ---
 
