@@ -37,7 +37,7 @@ The workshop covers everything from motivation to practice: why desktop computin
 
 ### [`scripts/`](scripts/)
 
-Example scripts for audio transcription with speaker diarization using [WhisperX](https://github.com/m-bain/whisperX), ready for SLURM job submission on [https://www.hrz.tu-darmstadt.de/hlr/hochleistungsrechnen/index.en.jsp](Lichtenberg HPC in Darmstadt, Germany).
+Example scripts for audio transcription with speaker diarization using [WhisperX](https://github.com/m-bain/whisperX), ready for SLURM job submission on [Lichtenberg HPC](https://www.hrz.tu-darmstadt.de/hlr/hochleistungsrechnen/index.en.jsp) in Darmstadt, Germany.
 
 | File | Description |
 |------|-------------|
