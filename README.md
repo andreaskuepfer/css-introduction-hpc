@@ -55,4 +55,4 @@ Example scripts for audio transcription with speaker diarization using [WhisperX
 
 - 📧 [andreas.kuepfer@tu-darmstadt.de](mailto:andreas.kuepfer@tu-darmstadt.de)
 - 🌐 [andreaskuepfer.github.io](https://andreaskuepfer.github.io)
-- 🦋 [@ankuepfer@bsky.social](https://bsky.app/profile/ankuepfer.bsky.social)
+- 🦋 [ankuepfer.bsky.social](https://bsky.app/profile/ankuepfer.bsky.social)
